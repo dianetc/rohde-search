@@ -1,0 +1,28 @@
+#!/bin/bash
+# Auto-update script for GitHub Actions
+# This fetches the latest edition, rebuilds data, and cleans it
+
+set -e
+
+echo "Fetching latest edition..."
+python build/scraper.py --update || true
+
+echo "Building companies data..."
+python build/build_data.py --api-key "$ANTHROPIC_API_KEY"
+
+echo "Checking if clean_data.py exists..."
+if [ -f "clean_data.py" ]; then
+    echo "Cleaning data..."
+    python build/clean_data.py
+
+    # Move cleaned file to correct location
+    if [ -f "data/companies.json.cleaned" ]; then
+        mv data/companies.json.cleaned data/companies_cleaned.json
+    fi
+else
+    echo "No clean_data.py found, skipping cleaning step"
+    # Just copy the raw data
+    cp data/companies.json data/companies_cleaned.json
+fi
+
+echo "Update complete!"
