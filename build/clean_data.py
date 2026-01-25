@@ -780,11 +780,11 @@ def clean_companies_data(input_file, output_file):
     print("Done!")
 
 if __name__ == '__main__':
-    input_file = Path('../data/companies.json')
-    output_file = Path('../data/companies.json.cleaned')
+    input_file = Path('data/companies.json')
+    output_file = Path('data/companies.json.cleaned')
 
     # Create backup
-    backup_file = Path('../data/companies.json.backup')
+    backup_file = Path('data/companies.json.backup')
     print(f"Creating backup at {backup_file}...")
     with open(input_file) as f_in, open(backup_file, 'w') as f_out:
         f_out.write(f_in.read())
