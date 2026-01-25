@@ -412,41 +412,45 @@ def full_scrape(api_key: str = None):
 def update_latest(api_key: str = None):
     """Update with latest edition only."""
     print("Checking for new editions...")
-    
+
     existing = load_existing_companies()
     existing_editions = set()
     for c in existing:
         existing_editions.update(c.get('editions', [c.get('latest_edition', 0)]))
-    
+
     max_existing = max(existing_editions) if existing_editions else 0
     print(f"Current latest edition: {max_existing}")
-    
-    html = fetch_page(f"{BASE_URL}/archive?sort=new")
-    match = re.search(r'/p/edition-(\d+)-ali-rohde-jobs', html)
-    
-    if not match:
-        print("Could not find latest edition")
-        return
-    
-    latest_num = int(match.group(1))
-    print(f"Latest available: {latest_num}")
-    
-    if latest_num <= max_existing:
-        print("Already up to date!")
-        return
-    
+
+    # Try fetching the next edition directly instead of checking archive
     new_companies = []
-    for num in range(max_existing + 1, latest_num + 1):
+    next_edition = max_existing + 1
+
+    # Try up to 3 editions ahead in case there's a gap
+    for num in range(next_edition, next_edition + 3):
         url = KNOWN_URL_OVERRIDES.get(num, f"{BASE_URL}/p/edition-{num}-ali-rohde-jobs")
-        print(f"Fetching edition {num}...")
+        print(f"Trying edition {num}...")
         try:
             html = fetch_edition(num, url)
             companies = parse_edition(html, num)
             new_companies.extend(companies)
             print(f"  Found {len(companies)} listings")
             time.sleep(1.5)
+        except requests.exceptions.HTTPError as e:
+            if e.response.status_code == 404:
+                print(f"  Edition {num} not found (404)")
+                if num == next_edition:
+                    # First edition doesn't exist, we're up to date
+                    print("Already up to date!")
+                    return
+                else:
+                    # Gap in editions, stop here
+                    break
+            else:
+                print(f"  Error: {e}")
+                break
         except Exception as e:
             print(f"  Error: {e}")
+            break
     
     if not new_companies:
         print("No new companies found")
