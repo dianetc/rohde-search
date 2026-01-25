@@ -26,7 +26,7 @@ except ImportError:
 
 # Configuration
 BASE_URL = "https://alirohdejobs.substack.com"
-DATA_DIR = Path("../data")
+DATA_DIR = Path("data")
 COMPANIES_FILE = DATA_DIR / "companies.json"
 DESCRIPTIONS_CACHE_FILE = DATA_DIR / "descriptions_cache.json"
 
