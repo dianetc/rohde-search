@@ -21,8 +21,6 @@ if [ -f "build/clean_data.py" ]; then
     fi
 else
     echo "No clean_data.py found, skipping cleaning step"
-    # Just copy the raw data
-    cp data/companies.json data/companies_cleaned.json
 fi
 
 echo "Update complete!"
