@@ -11,7 +11,7 @@ echo "Building companies data..."
 python build/build_data.py --api-key "$ANTHROPIC_API_KEY"
 
 echo "Checking if clean_data.py exists..."
-if [ -f "clean_data.py" ]; then
+if [ -f "build/clean_data.py" ]; then
     echo "Cleaning data..."
     python build/clean_data.py
 
