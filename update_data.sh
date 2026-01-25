@@ -5,10 +5,7 @@
 set -e
 
 echo "Fetching latest edition..."
-python build/scraper.py --update || true
-
-echo "Building companies data..."
-python build/build_data.py --api-key "$ANTHROPIC_API_KEY"
+python build/scraper.py --update --api-key "$ANTHROPIC_API_KEY" || true
 
 echo "Checking if clean_data.py exists..."
 if [ -f "build/clean_data.py" ]; then

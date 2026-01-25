@@ -794,4 +794,4 @@ if __name__ == '__main__':
     print(f"\nBackup saved to: {backup_file}")
     print(f"Cleaned data saved to: {output_file}")
     print(f"\nTo use the cleaned data, run:")
-    print(f"  mv data/companies.json.cleaned data/companies.json")
+    print(f"  mv data/companies.json.cleaned data/companies_cleaned.json")
