@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-25T08:20:54.112213",
-  "total_companies": 3393,
+  "last_updated": "2026-01-31T18:25:44.922074",
+  "total_companies": 3403,
   "companies": [
     {
       "company": "Hedra",
@@ -16,14 +16,385 @@
         179,
         173,
         172,
-        242
+        242,
+        243
       ],
-      "latest_edition": 242,
-      "latest_date": "Jan 23, 2026",
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
       "role_categories": [
         "Chief of Staff"
       ],
       "description": "Hedra develops AI technology that generates and manipulates video content, likely focusing on creating realistic video from text prompts or other inputs. The company builds tools that use artificial intelligence to automate video production and editing processes."
+    },
+    {
+      "company": "Vivere",
+      "industry": "Insurtech",
+      "stage": "Series A",
+      "location": "Remote",
+      "investors": "",
+      "editions": [
+        241,
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "Vivere develops insurance technology solutions that streamline policy management and claims processing for insurance companies. The company provides digital tools to modernize traditional insurance operations and improve customer experience."
+    },
+    {
+      "company": "Physical Intelligence",
+      "industry": "Robotics",
+      "stage": "Series B",
+      "location": "SF",
+      "investors": "",
+      "editions": [
+        240,
+        234,
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "Physical Intelligence develops AI software that enables robots to perform complex physical tasks by learning from real-world interactions and demonstrations. The company creates general-purpose robotic intelligence systems that can adapt to various physical environments and manipulation challenges."
+    },
+    {
+      "company": "Strategic Operations, Chime",
+      "industry": "Fintech",
+      "stage": "Series G",
+      "location": "SF",
+      "investors": "",
+      "editions": [
+        235,
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "Chime is a fintech company that provides mobile-first banking services including fee-free checking and savings accounts, early direct deposit, and financial management tools. The company operates as a digital bank focused on helping consumers manage their money without traditional banking fees."
+    },
+    {
+      "company": "Tandem",
+      "industry": "Healthcare",
+      "stage": "Series A",
+      "location": "NYC",
+      "investors": "",
+      "editions": [
+        229,
+        226,
+        214,
+        190,
+        179,
+        173,
+        170,
+        132,
+        130,
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps",
+        "Chief of Staff"
+      ],
+      "description": "Tandem is a healthcare company that likely provides collaborative care solutions or paired/partnered medical services, potentially connecting patients with healthcare providers or facilitating team-based treatment approaches."
+    },
+    {
+      "company": "HockeyStack",
+      "industry": "Data",
+      "stage": "Series A",
+      "location": "Remote",
+      "investors": "",
+      "editions": [
+        227,
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps",
+        "Chief of Staff"
+      ],
+      "description": "HockeyStack provides analytics software and tools for businesses to track, measure, and analyze their performance metrics and data. The company focuses on delivering actionable insights through data visualization and reporting capabilities."
+    },
+    {
+      "company": "Substack",
+      "industry": "Writing",
+      "stage": "Series B",
+      "location": "Los Angeles",
+      "investors": "",
+      "editions": [
+        207,
+        186,
+        144,
+        66,
+        3,
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "Substack is a platform that enables writers to publish newsletters and build paid subscription audiences directly. The company provides tools for content creators to monetize their writing through subscriber-based revenue models."
+    },
+    {
+      "company": "Valon",
+      "industry": "Fintech",
+      "stage": "Series C",
+      "location": "NYC",
+      "investors": "",
+      "editions": [
+        202,
+        162,
+        82,
+        19,
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "Chief of Staff",
+        "BizOps"
+      ],
+      "description": "Valon is a fintech company that provides technology solutions for mortgage servicing, helping homeowners manage their mortgage payments and related services through digital platforms. The company focuses on modernizing the mortgage servicing experience with user-friendly tools and automated processes."
+    },
+    {
+      "company": "Steno",
+      "industry": "Legal",
+      "stage": "Series B",
+      "location": "Remote",
+      "investors": "",
+      "editions": [
+        185,
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps",
+        "Chief of Staff"
+      ],
+      "description": "Steno provides legal technology solutions that likely focus on court reporting, transcription, or stenography services for the legal industry. The company appears to digitize and streamline traditional court reporting processes using modern technology."
+    },
+    {
+      "company": "Pallet",
+      "industry": "Logistics",
+      "stage": "Series A",
+      "location": "SF",
+      "investors": "backed by Bessemer",
+      "editions": [
+        138,
+        137,
+        27,
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "Chief of Staff"
+      ],
+      "description": "Pallet provides supply chain management solutions focused on pallet tracking and logistics optimization. The company likely helps businesses monitor and manage their pallet inventory and distribution processes."
+    },
+    {
+      "company": "Showpad",
+      "industry": "SaaS",
+      "stage": "Series D",
+      "location": "Remote",
+      "investors": "backed by Insight Partners",
+      "editions": [
+        100,
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "Chief of Staff"
+      ],
+      "description": "Showpad provides a sales enablement platform that helps sales teams organize, share, and present marketing content and sales materials to prospects and customers. The company's software streamlines the sales process by giving salespeople easy access to up-to-date presentations, documents, and interactive content during client interactions."
+    },
+    {
+      "company": "Ondo Finance",
+      "industry": "Fintech",
+      "stage": "Series A",
+      "location": "NYC / Remote",
+      "investors": "backed by Founders Fund",
+      "editions": [
+        72,
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "Chief of Staff",
+        "BizOps"
+      ],
+      "description": "Ondo Finance is a trading platform that provides structured financial products and investment solutions, likely focusing on decentralized finance (DeFi) and tokenized assets. The company enables users to access institutional-grade financial instruments through its digital trading infrastructure."
+    },
+    {
+      "company": "Canary Technologies",
+      "industry": "Healthcare",
+      "stage": "Series D",
+      "location": "NYC",
+      "investors": "",
+      "editions": [
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "Chief of Staff"
+      ],
+      "description": "Canary Technologies provides digital hospitality solutions that streamline hotel operations and enhance guest experiences through automated check-in, messaging, and property management tools. The company helps hotels modernize their guest services with contactless technology and communication platforms."
+    },
+    {
+      "company": "Checkout",
+      "industry": "Fintech",
+      "stage": "Series D",
+      "location": "NYC",
+      "investors": "",
+      "editions": [
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "Chief of Staff"
+      ],
+      "description": "Checkout provides payment processing solutions that enable businesses to accept and manage online transactions. The company offers payment gateway services and checkout optimization tools to help merchants streamline their e-commerce payment flows."
+    },
+    {
+      "company": "Communications, Anthropic",
+      "industry": "AI",
+      "stage": "Series F",
+      "location": "SF / NYC / Seattle / Remote",
+      "investors": "",
+      "editions": [
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "Anthropic is an AI safety company that develops and researches large language models and AI systems with a focus on creating safe, beneficial, and understandable artificial intelligence. The company is known for developing Claude, an AI assistant designed to be helpful, harmless, and honest."
+    },
+    {
+      "company": "OpenRouter",
+      "industry": "Infrastructure",
+      "stage": "Series A",
+      "location": "Remote",
+      "investors": "",
+      "editions": [
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "OpenRouter provides infrastructure services that enable developers to access and route requests across multiple AI models and APIs through a unified interface. The company simplifies AI model integration by offering a single endpoint for connecting to various language models and AI services."
+    },
+    {
+      "company": "Harper Insurance",
+      "industry": "Insurtech",
+      "stage": "Series A",
+      "location": "SF",
+      "investors": "",
+      "editions": [
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "Harper Insurance is an insurtech company that provides digital insurance solutions, likely offering streamlined insurance products and services through technology-driven platforms. The company focuses on modernizing the insurance experience for customers through digital tools and automated processes."
+    },
+    {
+      "company": "Phantom",
+      "industry": "Web3",
+      "stage": "Series C",
+      "location": "Remote",
+      "investors": "",
+      "editions": [
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "Phantom is a Web3 wallet that allows users to securely store, send, and receive cryptocurrencies and NFTs across multiple blockchain networks. The platform provides a browser extension and mobile app interface for interacting with decentralized applications (dApps) in the Web3 ecosystem."
+    },
+    {
+      "company": "Promptfoo",
+      "industry": "Cybersecurity",
+      "stage": "Series A",
+      "location": "SF",
+      "investors": "",
+      "editions": [
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "Promptfoo provides security testing and evaluation tools for AI systems and large language models, helping organizations identify vulnerabilities and ensure safe deployment of AI applications."
+    },
+    {
+      "company": "Reevo",
+      "industry": "SaaS",
+      "stage": "Series A",
+      "location": "SF",
+      "investors": "",
+      "editions": [
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "Reevo provides customer relationship management (CRM) software that helps businesses manage their sales, marketing, and customer service interactions. The platform likely offers tools for contact management, lead tracking, and workflow automation to improve customer relationships and drive revenue growth."
+    },
+    {
+      "company": "Soma Health",
+      "industry": "Neurotech",
+      "stage": "Pre-seed",
+      "location": "SF",
+      "investors": "",
+      "editions": [
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "Soma Health develops neurotechnology solutions to monitor, diagnose, or treat neurological and brain-related health conditions. The company likely focuses on creating devices or software that interface with the nervous system to improve patient outcomes."
+    },
+    {
+      "company": "Taxwire",
+      "industry": "SaaS",
+      "stage": "Early-stage",
+      "location": "NYC / Remote",
+      "investors": "",
+      "editions": [
+        243
+      ],
+      "latest_edition": 243,
+      "latest_date": "Jan 30, 2026",
+      "role_categories": [
+        "BizOps"
+      ],
+      "description": "Taxwire provides compliance software and services to help businesses manage their tax obligations and regulatory requirements. The company likely offers automated tax filing, reporting, and compliance tracking solutions."
     },
     {
       "company": "Harper",
@@ -101,8 +472,7 @@
       "latest_edition": 242,
       "latest_date": "Jan 23, 2026",
       "role_categories": [
-        "BizOps",
-        "Chief of Staff"
+        "BizOps"
       ],
       "description": "Chariot operates a technology platform that connects donors with charitable organizations and causes, streamlining the donation process and providing tools for fundraising and donor management."
     },
@@ -119,8 +489,7 @@
       "latest_edition": 242,
       "latest_date": "Jan 23, 2026",
       "role_categories": [
-        "BizOps",
-        "Chief of Staff"
+        "BizOps"
       ],
       "description": "Perpay is a fintech company that provides buy-now-pay-later services and financial products to help consumers make purchases and build credit. The platform likely offers installment payment options and credit-building tools for everyday purchases."
     },
@@ -188,8 +557,7 @@
       "latest_edition": 242,
       "latest_date": "Jan 23, 2026",
       "role_categories": [
-        "BizOps",
-        "Chief of Staff"
+        "BizOps"
       ],
       "description": "Alt operates a marketplace platform that likely facilitates the buying and selling of alternative assets or collectibles such as trading cards, memorabilia, or other non-traditional investments. The company provides a digital marketplace where users can trade these alternative asset classes."
     },
@@ -206,8 +574,7 @@
       "latest_edition": 242,
       "latest_date": "Jan 23, 2026",
       "role_categories": [
-        "BizOps",
-        "Chief of Staff"
+        "BizOps"
       ],
       "description": "Sphere is an EdTech company that likely provides immersive or comprehensive educational technology solutions, possibly focusing on creating engaging learning environments or platforms that offer 360-degree educational experiences."
     },
@@ -271,8 +638,7 @@
       "latest_edition": 242,
       "latest_date": "Jan 23, 2026",
       "role_categories": [
-        "Chief of Staff",
-        "BizOps"
+        "Chief of Staff"
       ],
       "description": "Orb Aerospace develops and manufactures aerospace components, systems, or vehicles for commercial, defense, or space applications. The company likely focuses on advanced aerospace technologies and solutions for the aviation or space industry."
     },
@@ -786,22 +1152,6 @@
       "description": "Speak develops an AI-powered English language learning platform that uses speech recognition technology to help users practice speaking and pronunciation. The company focuses on conversational AI tutoring to improve speaking fluency for non-native English speakers."
     },
     {
-      "company": "Vivere",
-      "industry": "Insurtech",
-      "stage": "Series A",
-      "location": "Remote",
-      "investors": "",
-      "editions": [
-        241
-      ],
-      "latest_edition": 241,
-      "latest_date": "Jan 16, 2026",
-      "role_categories": [
-        "BizOps"
-      ],
-      "description": "Vivere develops insurance technology solutions that streamline policy management and claims processing for insurance companies. The company provides digital tools to modernize traditional insurance operations and improve customer experience."
-    },
-    {
       "company": "Provider Networks, Aledade",
       "industry": "Healthcare",
       "stage": "Series F",
@@ -960,23 +1310,6 @@
         "Chief of Staff"
       ],
       "description": "Maven AGI develops AI-powered educational technology solutions that help institutions and educators deliver personalized learning experiences and improve student outcomes through intelligent tutoring and assessment tools."
-    },
-    {
-      "company": "Physical Intelligence",
-      "industry": "Robotics",
-      "stage": "Series B",
-      "location": "SF",
-      "investors": "",
-      "editions": [
-        240,
-        234
-      ],
-      "latest_edition": 240,
-      "latest_date": "Jan 09, 2026",
-      "role_categories": [
-        "BizOps"
-      ],
-      "description": "Physical Intelligence develops AI software that enables robots to perform complex physical tasks by learning from real-world interactions and demonstrations. The company creates general-purpose robotic intelligence systems that can adapt to various physical environments and manipulation challenges."
     },
     {
       "company": "Henry",
@@ -2535,22 +2868,6 @@
         "BizOps"
       ],
       "description": "Bubble is a no-code development platform that enables users to build and deploy web applications without writing code through a visual, drag-and-drop interface."
-    },
-    {
-      "company": "Strategic Operations, Chime",
-      "industry": "Fintech",
-      "stage": "Series G",
-      "location": "SF",
-      "investors": "",
-      "editions": [
-        235
-      ],
-      "latest_edition": 235,
-      "latest_date": "Nov 14, 2025",
-      "role_categories": [
-        "BizOps"
-      ],
-      "description": "Chime is a fintech company that provides mobile-first banking services including fee-free checking and savings accounts, early direct deposit, and financial management tools. The company operates as a digital bank focused on helping consumers manage their money without traditional banking fees."
     },
     {
       "company": "Clarasight",
@@ -4979,30 +5296,6 @@
       "description": "Qualified provides marketing and sales technology solutions that help businesses qualify and engage with potential customers. The company likely offers tools for lead generation, customer engagement, and sales funnel optimization."
     },
     {
-      "company": "Tandem",
-      "industry": "Healthcare",
-      "stage": "Series A",
-      "location": "NYC",
-      "investors": "",
-      "editions": [
-        229,
-        226,
-        214,
-        190,
-        179,
-        173,
-        170,
-        132,
-        130
-      ],
-      "latest_edition": 229,
-      "latest_date": "Oct 03, 2025",
-      "role_categories": [
-        "BizOps"
-      ],
-      "description": "Tandem is a healthcare company that likely provides collaborative care solutions or paired/partnered medical services, potentially connecting patients with healthcare providers or facilitating team-based treatment approaches."
-    },
-    {
       "company": "Aledade",
       "industry": "Healthcare",
       "stage": "Series F",
@@ -5681,22 +5974,6 @@
         "BizOps"
       ],
       "description": "Havenly is an online interior design platform that connects customers with professional designers to help them design and furnish their homes. The company provides personalized design services and curated product recommendations through a digital marketplace."
-    },
-    {
-      "company": "HockeyStack",
-      "industry": "Data",
-      "stage": "Series A",
-      "location": "Remote",
-      "investors": "",
-      "editions": [
-        227
-      ],
-      "latest_edition": 227,
-      "latest_date": "Sep 19, 2025",
-      "role_categories": [
-        "BizOps"
-      ],
-      "description": "HockeyStack provides analytics software and tools for businesses to track, measure, and analyze their performance metrics and data. The company focuses on delivering actionable insights through data visualization and reporting capabilities."
     },
     {
       "company": "Kick",
@@ -12347,26 +12624,6 @@
       "description": "Datology AI develops artificial intelligence solutions focused on data processing and analytics. The company likely provides AI-powered tools to help businesses extract insights and value from their data."
     },
     {
-      "company": "Substack",
-      "industry": "Writing",
-      "stage": "Series B",
-      "location": "Los Angeles",
-      "investors": "",
-      "editions": [
-        207,
-        186,
-        144,
-        66,
-        3
-      ],
-      "latest_edition": 207,
-      "latest_date": "Apr 11, 2025",
-      "role_categories": [
-        "BizOps"
-      ],
-      "description": "Substack is a platform that enables writers to publish newsletters and build paid subscription audiences directly. The company provides tools for content creators to monetize their writing through subscriber-based revenue models."
-    },
-    {
       "company": "Twilio",
       "industry": "Communication",
       "stage": "Public",
@@ -14187,25 +14444,6 @@
         "Chief of Staff"
       ],
       "description": "The Inflection appears to be an early-stage company focused on human resources, talent management, or workforce development services. Based on the name and industry classification, they likely help organizations or individuals navigate career transitions and professional growth opportunities."
-    },
-    {
-      "company": "Valon",
-      "industry": "Fintech",
-      "stage": "Series C",
-      "location": "NYC",
-      "investors": "",
-      "editions": [
-        202,
-        162,
-        82,
-        19
-      ],
-      "latest_edition": 202,
-      "latest_date": "Mar 07, 2025",
-      "role_categories": [
-        "Chief of Staff"
-      ],
-      "description": "Valon is a fintech company that provides technology solutions for mortgage servicing, helping homeowners manage their mortgage payments and related services through digital platforms. The company focuses on modernizing the mortgage servicing experience with user-friendly tools and automated processes."
     },
     {
       "company": "Captions",
@@ -20180,22 +20418,6 @@
         "BizOps"
       ],
       "description": "SiPhox Health is a healthcare technology company that develops silicon photonics-based diagnostic platforms for medical testing. The company focuses on creating advanced optical sensing solutions to enable faster, more accurate, and cost-effective healthcare diagnostics."
-    },
-    {
-      "company": "Steno",
-      "industry": "Legal",
-      "stage": "Series B",
-      "location": "Remote",
-      "investors": "",
-      "editions": [
-        185
-      ],
-      "latest_edition": 185,
-      "latest_date": "Oct 03, 2024",
-      "role_categories": [
-        "BizOps"
-      ],
-      "description": "Steno provides legal technology solutions that likely focus on court reporting, transcription, or stenography services for the legal industry. The company appears to digitize and streamline traditional court reporting processes using modern technology."
     },
     {
       "company": "Operations & Strategy, Strive Health",
@@ -32913,24 +33135,6 @@
       "description": "Nulixir develops nanotechnology solutions, likely focusing on advanced materials or drug delivery systems at the molecular scale. The company appears to specialize in creating innovative nanoscale technologies for industrial or medical applications."
     },
     {
-      "company": "Pallet",
-      "industry": "Logistics",
-      "stage": "Series A",
-      "location": "SF",
-      "investors": "backed by Bessemer",
-      "editions": [
-        138,
-        137,
-        27
-      ],
-      "latest_edition": 138,
-      "latest_date": "Oct 19, 2023",
-      "role_categories": [
-        "Chief of Staff"
-      ],
-      "description": "Pallet provides supply chain management solutions focused on pallet tracking and logistics optimization. The company likely helps businesses monitor and manage their pallet inventory and distribution processes."
-    },
-    {
       "company": "Soko Glam",
       "industry": "Consumer",
       "stage": "Seed",
@@ -39794,22 +39998,6 @@
       "description": "Rootless is a foodtech company that likely develops plant-based or alternative protein products, focusing on creating sustainable food solutions that don't rely on traditional root-based agriculture or conventional farming methods."
     },
     {
-      "company": "Showpad",
-      "industry": "SaaS",
-      "stage": "Series D",
-      "location": "Remote",
-      "investors": "backed by Insight Partners",
-      "editions": [
-        100
-      ],
-      "latest_edition": 100,
-      "latest_date": "Jan 25, 2023",
-      "role_categories": [
-        "Chief of Staff"
-      ],
-      "description": "Showpad provides a sales enablement platform that helps sales teams organize, share, and present marketing content and sales materials to prospects and customers. The company's software streamlines the sales process by giving salespeople easy access to up-to-date presentations, documents, and interactive content during client interactions."
-    },
-    {
       "company": "3i",
       "industry": "Alternative Investments",
       "stage": "Seed",
@@ -45625,22 +45813,6 @@
         "Chief of Staff"
       ],
       "description": "Gotham Greens operates indoor vertical farms that grow fresh, pesticide-free leafy greens and herbs year-round using hydroponic technology. The company supplies locally-grown produce to grocery stores and restaurants in urban markets."
-    },
-    {
-      "company": "Ondo Finance",
-      "industry": "Fintech",
-      "stage": "Series A",
-      "location": "NYC / Remote",
-      "investors": "backed by Founders Fund",
-      "editions": [
-        72
-      ],
-      "latest_edition": 72,
-      "latest_date": "Jun 30, 2022",
-      "role_categories": [
-        "Chief of Staff"
-      ],
-      "description": "Ondo Finance is a trading platform that provides structured financial products and investment solutions, likely focusing on decentralized finance (DeFi) and tokenized assets. The company enables users to access institutional-grade financial instruments through its digital trading infrastructure."
     },
     {
       "company": "SkyGrid",
